@@ -36,7 +36,7 @@ const Home: NextPage = () => {
           : null
         }
         {!user.isSignedIn ? 
-          <div className="text-2xl">
+          <div className="text-2xl text-white">
             <SignedOut> 
               <SignInButton />
             </SignedOut>
